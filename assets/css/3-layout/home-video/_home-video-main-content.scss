@@ -1,0 +1,46 @@
+section.home-video-main-content{
+  img.just-marry{
+    width: 100%;
+    margin-top: 30px;
+    padding: 0px 0px 50px;
+
+  }
+  a.title{
+    display: block;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #777;
+    transition: all .3s;
+    &:hover{
+      color: $red;
+    }
+  }
+
+  small{
+    color: #ccc;
+    display: block;
+  }
+  p{
+    color: #777;
+  }
+  .media-object{
+    margin-bottom: 15px;
+
+    img{
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+
+  ul.pagination{
+    li.page-item{
+      padding: 5px;
+      a{
+        border: none;
+        color: #000;
+      }
+    }
+  }
+  
+}

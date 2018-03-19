@@ -1,0 +1,108 @@
+section.home-main-content-carousel{
+  .carousel-wrap{
+
+    .carousel-wrap-img{
+      width: 100%;
+
+      img{
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    }//carousel-wrap-img
+
+    span.price{
+      font-weight: 600;
+      display: block;
+      span.table{
+        font-size: 0.8em;
+        color: #777;
+      }
+    }
+
+  a.title{
+    display: block;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #777;
+    transition: all .3s;
+    &:hover{
+      color: $red;
+    }
+  }
+
+  small{
+    color: #ccc;
+    display: block;
+  }
+  p{
+    color: #777;
+  }
+
+  }//carousel-wrap
+
+  .owl-carousel-main-content-1{
+    position: relative;
+    .owl-dots{
+      display: none;
+    }
+    .owl-prev{
+      position: absolute;
+      top: 40%;
+      left: 0;
+      transform: translateY(-50%);
+      margin: 0;
+      padding: 20px;
+      color: #fff;
+      background: rgba(#000, 0.7);
+    }
+    .owl-next{
+      position: absolute;
+      top: 40%;
+      right: 0;
+      transform: translateY(-50%);
+      margin: 0;
+      padding: 20px;
+      color: #fff;
+      background: rgba(#000, 0.7);
+
+    }
+  }//owl-carousel
+
+  .media{
+    margin-top: 40px;
+    .media-wrap{
+    display: flex;
+    margin-bottom: 10px;
+
+      .media-title{
+        margin-left: 10px;
+
+        a{
+          display: block;
+          color: #000;
+          font-weight: 600;
+          font-size: 0.9em;
+          margin-bottom: 5px;
+          &:hover{
+            color: $red;
+          }
+        }
+        small.clothes{
+          color: #e55b71;
+          font-size: 0.8em;
+          font-weight: 600;
+        }
+
+
+
+      }//media-title
+    }//media-wrap
+  }//media
+
+  img.just-marry{
+    width: 100%;
+    margin-top: 30px;
+  }
+
+}

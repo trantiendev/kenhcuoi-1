@@ -1,0 +1,27 @@
+section.home-search{
+  width: 100%;
+  border-bottom: 5px solid $red;
+  padding: 20px 0px;
+  .form-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  label{
+    border: none;
+    color: $red;
+    font-weight: 600;
+    padding-top: 15px;
+  }
+
+  input{
+    border: none;
+  }
+
+  button.btn-search{
+    background: $red;
+    font-size: 0.8em;
+    padding: 10px 30px
+  }
+}

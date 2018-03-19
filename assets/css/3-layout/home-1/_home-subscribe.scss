@@ -1,0 +1,47 @@
+section.home-subscribe{
+
+  .container{
+    background-image: url(../img/home-1/subscribe.png);
+    padding: 30px 50px ;
+
+    .home-subscribe-wrap{
+      background: rgba(black, 0.8);
+      padding: 50px;
+
+      h4{
+        color: #fff;
+      }
+      h4, p{
+        font-weight: 600;
+
+      }
+
+      .row{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .form-group{
+        display: flex;
+        button.btn-search{
+          background: $red;
+          font-size: 0.8em;
+          padding: 10px 30px;
+          border: none;
+        }
+        input{
+          border: none;
+          background: rgba(#fff, 0.2);
+          color: #fff;
+          &::placeholder{
+            color: #fff;
+          }
+        }
+      }//form-group
+
+    }//home-subscribe-wrap
+
+  }
+
+}

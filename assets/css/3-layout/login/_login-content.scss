@@ -1,0 +1,104 @@
+section.login-content{
+  padding: 80px 0px 0px;
+
+
+  .submit{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .btn-submit{
+      background: $red;
+      color: #fff;
+    }
+
+  }
+
+
+  h4{
+    display: block;
+    border-bottom: 3px solid #eee;
+    padding-bottom: 50px;
+  }
+  small.introduction{
+    display: block;
+    color: #777;
+    padding: 30px 0px;
+  }
+
+  .img-load{
+    border: 1px solid #ddd;
+    padding: 40px 10px;
+    margin-top: 40px;
+    img{
+      margin-bottom: 10px;
+      width: 100%;
+    }
+  }
+
+  .login-sidebar{
+    .avatar{
+      width: 100%;
+      background: blue;
+      position: relative;
+      img{
+        width: 100%;
+        display: block;
+      }
+
+      i{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: rgba(#000, 0.8);
+        color: #fff;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+      }
+
+    }//avatar
+  }//login-sidebar
+
+  ul.list-group{
+    margin-top: 10px;
+    li{
+      display: flex;
+      transition: all .3s;
+
+      &:hover{
+        border-left: 3px solid $red;
+        i, a{
+          color: $red;
+        }
+      }
+
+      i{
+        font-size: 2em;
+        margin-right: 10px;
+        transition: all .3s;
+
+      }
+
+      a{
+        color: #777;
+        display: inline-block;
+        margin-top: 5px;
+        transition: all .3s;
+
+      }
+    }
+  }//ul
+
+  form{
+    padding: 50px 0px;
+    border: 1px solid #ddd;
+    .form-group{
+      label{
+        color: #000;
+        font-weight: 600;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,36 @@
+/* GLOBAL CSS
+   ----------------------------- */
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a {
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+//
+// body {
+//     font-family: "Montserrat", sans-serif;
+// }
+
+.ul-unstyle{
+  margin: 0;
+  padding: 0;
+  li{
+    list-style: none;
+  }
+}
+
+.owl-un-nav-dots{
+  .owl-nav, .owl-dots{
+    display: none;
+  }
+}
+
+
+$red: #ab132d;
+.red-color{
+  color: #ab132d;
+}

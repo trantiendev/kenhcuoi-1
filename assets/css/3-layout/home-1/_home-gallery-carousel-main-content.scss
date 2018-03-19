@@ -1,0 +1,24 @@
+section.home-gallery-carousel-main-content{
+  padding: 50px 0px;
+  .carousel-gallery-wrap{
+    position: relative;
+    .carousel-gallery-title{
+      padding: 40px;
+      position: absolute;
+      bottom: 0px;
+      left: 0;
+      a{
+        color: #fff;
+        display: block;
+        font-size: 1.2em;
+        font-weight: 600;
+      }
+      small{
+        color: #ccc;
+      }
+    }
+  }
+  img.hash{
+    width: 100%;
+  }
+}

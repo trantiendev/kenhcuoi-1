@@ -1,0 +1,34 @@
+section.home-video-main-cotent{
+  padding: 50px 0px;
+  .home-video-thumb{
+    strong{
+      display: block;
+      font-size: 1.1em;
+    }
+  }
+
+  small.day{
+    color: #b6b6b6;
+  }
+  .media{
+    .media-wrap{
+    display: flex;
+    margin-bottom: 10px;
+
+      .media-title{
+        margin-left: 10px;
+
+        a{
+          display: block;
+          color: #000;
+          font-weight: 600;
+          &:hover{
+            color: $red;
+          }
+        }
+
+
+      }//media-title
+    }//media-wrap
+  }//media
+}

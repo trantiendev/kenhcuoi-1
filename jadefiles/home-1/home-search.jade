@@ -1,0 +1,39 @@
+section.home-search
+  .container
+    .row
+      .col-md-12
+        form
+          .form-group
+            
+            label.text-uppercase.form-control tìm kiếm  nhà cung cấp
+
+            input.form-control(type='text', placeholder='Nhập từ khóa')
+            |
+            select.form-control
+              option(data-display='Chọn dịch vụ cưới') Chọn dịch vụ cưới
+              |        
+              option(value='1') Hoa cưới
+              |        
+              option(value='2') Nhà hàng tiệc cưới
+              |        
+              option(value='3') Quà cưới
+              |        
+              option(value='4') Studio ảnh cưới
+              |
+              option(value='5') Thiệp cưới
+              |
+              option(value='4') Honey moon
+              
+
+            |   
+            select.form-control
+              option(data-display='Chọn khu vực') Chọn khu vực
+              |        
+              option(value='1') Name
+              |        
+              option(value='2') Tag
+              |        
+              option(value='3') Price
+              
+            button.btn.btn-outline-light.btn-lg.text-uppercase.btn-search(type='submit') 
+              | tìm ngay

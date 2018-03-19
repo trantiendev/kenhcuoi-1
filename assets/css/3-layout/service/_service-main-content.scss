@@ -1,0 +1,61 @@
+section.service-main-content{
+
+  ul.pagination{
+    li.page-item{
+      padding: 5px;
+      a{
+        border: none;
+        color: #000;
+      }
+    }
+  }
+
+  .media-object{
+    position: relative;
+    margin-bottom: 15px;
+    p.title-img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 10px;
+      background: rgba(#000, 0.7);
+      color: #fff;
+      font-size: 0.9em;
+      font-weight: 600;
+    }
+
+    img{
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    span.price{
+      font-weight: 600;
+      display: block;
+      span.table{
+        font-size: 0.8em;
+        color: #777;
+      }
+    }
+
+    a.title{
+      display: block;
+      font-size: 1em;
+      font-weight: 700;
+      color: #777;
+      transition: all .3s;
+      &:hover{
+        color: $red;
+      }
+    }
+
+    p.address{
+      color: #777;
+      font-size: 0.8em;
+    }
+
+  }
+  img.just-marry{
+    padding: 0px 0px 50px;
+  }
+}

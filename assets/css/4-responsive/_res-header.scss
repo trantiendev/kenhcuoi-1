@@ -1,0 +1,46 @@
+@media (max-width: 1200px){
+  header.header.fixed-top{
+
+    section.header-info{
+      .info-phone{
+        p{
+          text-align: center;
+        }
+      }
+      .info-login{
+        justify-content: center;
+      }
+    }
+
+    section.menu-nav{
+      nav.navbar{
+        #navbarSupportedContent ul.navbar-nav-right li.nav-item{
+          padding-right: 0px;
+        }
+      }
+
+
+    }//section.menu-nav
+
+  }
+}
+
+@media (max-width: 992px){
+  header.header.fixed-top{
+
+    section.menu-nav{
+      nav.navbar{
+        display: none;
+        #navbarSupportedContent ul.navbar-nav-right li.nav-item{
+          padding-right: 0px;
+        }
+      }
+
+      .mmenu{
+        display: block;
+      }
+
+    }//section.menu-nav
+
+  }
+}

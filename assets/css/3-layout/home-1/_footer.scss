@@ -86,8 +86,10 @@ footer.footer{
     ul{
       display: flex;
       justify-content: flex-end;
+      flex-wrap: wrap;
       li{
-        padding: 0px 8px;
+
+        padding: 0px 5px 0px;
         border-right: 1px solid #777;
         margin: 0;
 
@@ -106,4 +108,20 @@ footer.footer{
   }//footer-coyright
 
   }
+}
+
+@media (max-width: 640px){
+  footer.footer{
+
+  .container{
+      .footer-coyright{
+        ul{
+          display: flex;
+          justify-content: flex-start;
+          flex-wrap: wrap;
+        }
+      }
+    }
+  }
+
 }

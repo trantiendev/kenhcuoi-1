@@ -633,12 +633,12 @@ section.home-collection-main-content ul {
 }
 
 section.home-collection-main-content ul li {
-  padding: 0px 7px;
+  padding: 0px 5px;
 }
 
 section.home-collection-main-content ul li a {
   color: #777;
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 
 section.home-collection-main-content ul li a:hover {

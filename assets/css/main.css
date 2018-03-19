@@ -817,6 +817,20 @@ section.home-subscribe .container .home-subscribe-wrap .form-group input::placeh
   color: #fff;
 }
 
+@media (max-width: 640px) {
+  section.home-subscribe .container .form-group {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  section.home-subscribe .container .form-group input {
+    display: block;
+  }
+  section.home-subscribe .container .form-group button {
+    display: block;
+    margin-top: 5px;
+  }
+}
+
 footer.footer {
   padding: 100px 0px 0px;
 }

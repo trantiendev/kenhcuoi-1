@@ -45,3 +45,20 @@ section.home-subscribe{
   }
 
 }
+
+@media (max-width: 640px){
+  section.home-subscribe{
+    .container{
+      .form-group{
+        flex-wrap: wrap;
+        input{
+          display: block;
+        }
+        button{
+          display: block;
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+}

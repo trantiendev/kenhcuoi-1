@@ -698,6 +698,18 @@ section.home-gallery-carousel-main-content .carousel-gallery-wrap {
   position: relative;
 }
 
+section.home-gallery-carousel-main-content .carousel-gallery-wrap img {
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+section.home-gallery-carousel-main-content .carousel-gallery-wrap:hover img {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 section.home-gallery-carousel-main-content .carousel-gallery-wrap .carousel-gallery-title {
   padding: 40px;
   position: absolute;

@@ -2,6 +2,14 @@ section.home-gallery-carousel-main-content{
   padding: 50px 0px;
   .carousel-gallery-wrap{
     position: relative;
+    img{
+      transition: all .3s;
+    }
+    &:hover{
+      img{
+        transform: scale(1.1);
+      }
+    }
     .carousel-gallery-title{
       padding: 40px;
       position: absolute;

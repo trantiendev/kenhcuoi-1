@@ -48,6 +48,9 @@ function carousel(){
     nav:true,
     navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
     responsive:{
+      300:{
+        items:1
+    },
         400:{
             items:1
         },
@@ -131,14 +134,14 @@ function mmenu(){
         }
      });
 
-  $('a.hamburger').on('click', function(e){
-    $(this).addClass('is-active');
+  // $('a.hamburger').on('click', function(e){
+  //   $(this).addClass('is-active');
 
-  });
+  // });
 
-  $('#mm-blocker').on('click', function(){
-    $('a.hamburger').removeClass('is-active');
-  });
+  // $('#mm-blocker').on('click', function(){
+  //   $('a.hamburger').removeClass('is-active');
+  // });
 
 
 };

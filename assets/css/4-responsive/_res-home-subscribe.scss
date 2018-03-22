@@ -1,0 +1,15 @@
+@media (max-width: 640px){
+    section.home-subscribe{
+        .container{
+            .home-subscribe-wrap{
+                padding: 20px 20px;
+                .form-group{
+                    button.btn-search{
+                        display: block;
+                      }
+                }
+            }
+        }
+        
+    }
+}

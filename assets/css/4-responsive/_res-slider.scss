@@ -1,0 +1,32 @@
+
+@media (max-width: 640px){
+    section.slider{
+        .owl-carousel-slider{
+            .owl-nav{
+
+                .owl-next{
+                    bottom: 6%;
+                    left: 78%;
+                  }
+                  .owl-prev{
+                    bottom: 6%;
+                    left: 14%;
+            
+                  }
+              }
+        }
+
+        .slider-wrap{
+            .slider-wrap-content{
+                .slider-title{
+                    height: 40%;
+                    p{
+                        font-size: 0.7em;
+                    }
+                }
+            }
+            
+        }
+        
+    }//section
+}

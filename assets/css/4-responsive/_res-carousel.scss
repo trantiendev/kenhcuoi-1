@@ -1,0 +1,9 @@
+@media (max-width: 640px){
+    section.home-main-content-carousel{
+        .owl-carousel-main-content-1{
+            .owl-prev, .owl-next{
+                top: 30%;
+            }
+        }
+    }
+}
